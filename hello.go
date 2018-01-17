@@ -5,9 +5,15 @@ import "net"
 import "bufio"
 
 func main() {
+    
     fmt.Printf("Hello, world\n")
 
-    conn, err := net.Dial("tcp", "golang.org:80")
+    // open AT port
+
+    // enable net
+
+    // try connection
+    conn, err := net.Dial("tcp", "baidu.com:80")
     if err != nil {
         fmt.Printf("Connection error!\n")
     } else {
